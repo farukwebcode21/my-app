@@ -1,28 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
-
+import Counter from './components/Counter';
+import Data from './components/data';
+import Product from './components/Product';
 
 function App() {
-  return (
+   return (
     <div className="App">
-    <Person name="Faruk"/>
-    <Person/>
-    <Person/>
-    <Person/>
+      <Product/>
+      <Counter/>
+      <Data/>
     </div>
   );
-}
-
-function Person(props) {
-  console.log(props);
-  return (
-    <div className="person">
-    <h1>Shakib al Hasan</h1>
-    <h4>Professor:Crickter</h4>
-  </div>
-  )
-  
 }
 
 export default App;

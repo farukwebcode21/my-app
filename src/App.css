@@ -43,3 +43,25 @@
   border-radius: 20px;
   margin: 10px;
 }
+.btn-increase{
+  margin-bottom: 20px;
+  width: 150px;
+  height: 35px;
+  font: size 20px;
+  color: aliceblue;
+  background-color:rebeccapurple;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.btn-decrease{
+  margin-bottom: 20px;
+  width: 150px;
+  height: 35px;
+  font: size 20px;
+  color: black;
+  background-color:orange;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
